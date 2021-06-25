@@ -19,8 +19,9 @@ from django.urls import path
 from apis import views
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
+    # path('admin/', admin.site.urls),
     path('create_pizza/', views.create_pizza, name = 'create-pizza'),
+    path('delete_pizza/', views.delete_pizzas, name = 'pizza-delete'),
     path('edit_pizza/', views.edit_pizzas, name = 'pizza-edit'),
     path('view_pizza/', views.view_pizzas, name = 'pizza-view'),
     path('filter_pizza/', views.filter_pizzas, name = 'pizza-filter'),
