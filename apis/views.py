@@ -17,7 +17,7 @@ def create_pizza(request):
         serializer = serializers.OrderPizza(data = request.data)
         if serializer.is_valid():
             try:
-                pizza_type = request.data.get('type').lower()
+                pizza_type = request.data.get('type')
                 pizza_size = request.data.get('size').lower()
                 pizza_toppings = request.data.get('toppings').lower()
 
@@ -48,7 +48,7 @@ def filter_pizzas(request):
         serializer = serializers.FilterPizza(data = request.data)
         if serializer.is_valid():
             try:
-                pizza_type = request.data.get('type').lower()
+                pizza_type = request.data.get('type')
                 pizza_size = request.data.get('size').lower()
 
                 data = Pizza.objects.filter(type = pizza_type, size = pizza_size)
@@ -92,7 +92,7 @@ def edit_pizzas(request):
             if pizza_type is None:
                 return JsonResponse({'type': 'Required'}, status = HTTP_400_BAD_REQUEST, safe = False)
 
-            new_type = Pizza.objects.get(id = pizza_id).type.lower()
+            new_type = Pizza.objects.get(id = pizza_id).type
             new_size = Pizza.objects.get(id = pizza_id).size.lower()
             if pizza_toppings is None:
                 new_toppings = Pizza.objects.get(id = pizza_id).toppings
