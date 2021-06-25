@@ -16,6 +16,12 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
+from apis import views
+
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('create_pizza/', views.create_pizza, name = 'create-pizza'),
+    path('edit_pizza/', views.edit_pizzas, name = 'pizza-edit'),
+    path('view_pizza/', views.view_pizzas, name = 'pizza-view'),
+    path('filter_pizza/', views.filter_pizzas, name = 'pizza-filter'),
 ]
