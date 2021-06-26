@@ -1,4 +1,20 @@
+### Running the project in Django
+
+1. Clone the project
+   ![img.png](doc_images/clone.png)
+   ![img_1.png](doc_images/clone2.png)
+2. Install the requirements
+   ![img_2.png](requirements.png)
+3. Connect to MongoDB<br>
+4. Make migrations
+   ![img_3.png](doc_images/run.png)
+5. Run server
+   ![img_5.png](doc_images/run.png)
+6. Start testing the endpoints (in Postman)
+
 The API endpoints were tested in [Postman](https://www.getpostman.com/collections/c05ea3bf772c24c1eecb)
+<details>
+<summary>Create Pizza</summary>
 
 #### Introduction :
 
@@ -35,6 +51,10 @@ toppings: onions tomatoes things
 
 ![img_1.png](doc_images/img_1.png)
 <center><i>Pizza created</i></center>
+</details>
+
+<details>
+<summary>View pizzas</summary>
 
 #### Introduction :
 
@@ -52,6 +72,10 @@ No request body needed.
 
 ![img_3.png](doc_images/img_3.png)
 <center><i>Pizzas viewed</i></center>
+</details>
+
+<details>
+<summary>Filter pizzas</summary>
 
 #### Introduction :
 
@@ -86,6 +110,10 @@ size: small
 
 ![img_4.png](doc_images/img_4.png)
 <center><i>Pizzas filtered</i></center>
+</details>
+
+<details>
+<summary>Edit pizzas</summary>
 
 #### Introduction :
 
@@ -122,6 +150,10 @@ type:
 
 ![img_7.png](doc_images/img_7.png)
 <center><i>Pizza edited</i></center>
+</details>
+
+<details>
+<summary>Delete pizzas</summary>
 
 #### Introduction :
 
@@ -154,3 +186,4 @@ id : 1
 
 ![img_10.png](doc_images/img_10.png)
 <center><i>Pizza deleted</i></center>
+</details>
