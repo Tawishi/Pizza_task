@@ -23,7 +23,7 @@ def create_pizza(request):
 
                 order = Pizza(type = pizza_type, size = pizza_size, toppings = pizza_toppings)
                 order.save()
-                return Response({'Status': 'Order recorded'}, status = HTTP_200_OK)
+                return Response({'Status': 'Pizza created'}, status = HTTP_200_OK)
             except Exception:
                 return Response({'Status': 'Encountered an error'}, status = HTTP_400_BAD_REQUEST)
         return Response(serializer.errors, status = HTTP_400_BAD_REQUEST)
