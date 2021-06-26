@@ -1,4 +1,4 @@
-### Running the project in Django
+## Running the project in Django
 
 1. Clone the project
    ![img.png](doc_images/clone.png)
@@ -12,7 +12,13 @@
    ![img_5.png](doc_images/run.png)
 6. Start testing the endpoints (in Postman)
 
-The API endpoints were tested in [Postman](https://www.getpostman.com/collections/c05ea3bf772c24c1eecb)
+The API endpoints were tested in Postman
+<br><i>[this link](https://www.getpostman.com/collections/c05ea3bf772c24c1eecb) can be directly "imported" in POSTMAN interface and used for testing</i>
+![img.png](postmam.png)
+![img.png](post.png)
+
+## API endpoints
+
 <details>
 <summary>Create Pizza</summary>
 
