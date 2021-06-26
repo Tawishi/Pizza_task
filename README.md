@@ -30,10 +30,10 @@ toppings: onions tomatoes things
 
 #### Example responses :
 
-![img_2.png](img_2.png)
+![img_2.png](doc_images/img_2.png)
 <center><i>Serializer error</i></center>
 
-![img_1.png](img_1.png)
+![img_1.png](doc_images/img_1.png)
 <center><i>Pizza created</i></center>
 
 #### Introduction :
@@ -50,7 +50,7 @@ No request body needed.
 
 #### Example responses :
 
-![img_3.png](img_3.png)
+![img_3.png](doc_images/img_3.png)
 <center><i>Pizzas viewed</i></center>
 
 #### Introduction :
@@ -81,10 +81,10 @@ size: small
 
 #### Example responses :
 
-![img_5.png](img_5.png)
+![img_5.png](doc_images/img_5.png)
 <center><i>Serializer error</i></center>
 
-![img_4.png](img_4.png)
+![img_4.png](doc_images/img_4.png)
 <center><i>Pizzas filtered</i></center>
 
 #### Introduction :
@@ -117,10 +117,10 @@ type:
 
 #### Example responses :
 
-![img_6.png](img_6.png)
+![img_6.png](doc_images/img_6.png)
 <center><i>Key-value error</i></center>
 
-![img_7.png](img_7.png)
+![img_7.png](doc_images/img_7.png)
 <center><i>Pizza edited</i></center>
 
 #### Introduction :
@@ -149,8 +149,8 @@ id : 1
 
 #### Example responses :
 
-![img_9.png](img_9.png)
+![img_9.png](doc_images/img_9.png)
 <center><i>Key-value error</i></center>
 
-![img_10.png](img_10.png)
+![img_10.png](doc_images/img_10.png)
 <center><i>Pizza deleted</i></center>
