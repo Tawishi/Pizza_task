@@ -4,7 +4,7 @@
    ![img.png](doc_images/clone.png)
    ![img_1.png](doc_images/clone2.png)
 2. Install the requirements
-   ![img_2.png](requirements.png)
+   ![img_2.png](doc_images/requirements.png)
 3. Connect to MongoDB<br>
 4. Make migrations
    ![img_3.png](doc_images/run.png)
@@ -14,8 +14,8 @@
 
 The API endpoints were tested in Postman
 <br><i>[this link](https://www.getpostman.com/collections/c05ea3bf772c24c1eecb) can be directly "imported" in POSTMAN interface and used for testing</i>
-![img.png](postmam.png)
-![img.png](post.png)
+![img.png](doc_images/postmam.png)
+![img.png](doc_images/post.png)
 
 ## API endpoints
 
